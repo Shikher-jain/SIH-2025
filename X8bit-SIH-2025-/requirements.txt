@@ -1,0 +1,15 @@
+numpy
+pandas
+
+matplotlib
+plotly
+seaborn
+
+tensorflow
+scikit-learn
+
+opencv-python
+rasterio
+
+scipy 
+spectral
