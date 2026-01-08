@@ -1,6 +1,0 @@
-*.npy
-.env
-
-
-__pycache__/
-*.pyc
