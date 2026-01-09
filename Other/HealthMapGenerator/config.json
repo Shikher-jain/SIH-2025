@@ -1,0 +1,515 @@
+{
+  "area": {
+    "name": "kapurthala",
+    "type": "geojson",
+    "geojson":{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            75.35377142824095,
+                            31.409514813049583
+                        ],
+                        [
+                            75.35377142824095,
+                            31.405326064245898
+                        ],
+                        [
+                            75.36180109854129,
+                            31.405326064245898
+                        ],
+                        [
+                            75.36180109854129,
+                            31.409514813049583
+                        ],
+                        [
+                            75.35377142824095,
+                            31.409514813049583
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            75.3490129979032,
+                            31.396893504587126
+                        ],
+                        [
+                            75.3490129979032,
+                            31.39274137654796
+                        ],
+                        [
+                            75.3556342088554,
+                            31.39274137654796
+                        ],
+                        [
+                            75.3556342088554,
+                            31.396893504587126
+                        ],
+                        [
+                            75.3490129979032,
+                            31.396893504587126
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            75.35463553299184,
+                            31.38261895254199
+                        ],
+                        [
+                            75.35463553299184,
+                            31.378528176144826
+                        ],
+                        [
+                            75.3611986631455,
+                            31.378528176144826
+                        ],
+                        [
+                            75.3611986631455,
+                            31.38261895254199
+                        ],
+                        [
+                            75.35463553299184,
+                            31.38261895254199
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            75.36287966436737,
+                            31.386996241877753
+                        ],
+                        [
+                            75.36287966436737,
+                            31.384628682139805
+                        ],
+                        [
+                            75.36546425987112,
+                            31.384628682139805
+                        ],
+                        [
+                            75.36546425987112,
+                            31.386996241877753
+                        ],
+                        [
+                            75.36287966436737,
+                            31.386996241877753
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            75.3865520314298,
+                            31.41962059102717
+                        ],
+                        [
+                            75.3865520314298,
+                            31.41365293079673
+                        ],
+                        [
+                            75.39429878299319,
+                            31.41365293079673
+                        ],
+                        [
+                            75.39429878299319,
+                            31.41962059102717
+                        ],
+                        [
+                            75.3865520314298,
+                            31.41962059102717
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            75.38867176261112,
+                            31.41004545007516
+                        ],
+                        [
+                            75.38867176261112,
+                            31.402983225001293
+                        ],
+                        [
+                            75.39398705200512,
+                            31.402983225001293
+                        ],
+                        [
+                            75.39398705200512,
+                            31.41004545007516
+                        ],
+                        [
+                            75.38867176261112,
+                            31.41004545007516
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            75.4124804478943,
+                            31.414293844387373
+                        ],
+                        [
+                            75.4124804478943,
+                            31.410226707584243
+                        ],
+                        [
+                            75.41742253521605,
+                            31.410226707584243
+                        ],
+                        [
+                            75.41742253521605,
+                            31.414293844387373
+                        ],
+                        [
+                            75.4124804478943,
+                            31.414293844387373
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            75.41639825421095,
+                            31.405126213648316
+                        ],
+                        [
+                            75.41639825421095,
+                            31.40038073996928
+                        ],
+                        [
+                            75.42309066412679,
+                            31.40038073996928
+                        ],
+                        [
+                            75.42309066412679,
+                            31.405126213648316
+                        ],
+                        [
+                            75.41639825421095,
+                            31.405126213648316
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            75.43576253703651,
+                            31.390919150580558
+                        ],
+                        [
+                            75.43576253703651,
+                            31.38859003083546
+                        ],
+                        [
+                            75.43951322830767,
+                            31.38859003083546
+                        ],
+                        [
+                            75.43951322830767,
+                            31.390919150580558
+                        ],
+                        [
+                            75.43576253703651,
+                            31.390919150580558
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            75.42639320757775,
+                            31.384157089943415
+                        ],
+                        [
+                            75.42639320757775,
+                            31.383033263046826
+                        ],
+                        [
+                            75.42882747975568,
+                            31.383033263046826
+                        ],
+                        [
+                            75.42882747975568,
+                            31.384157089943415
+                        ],
+                        [
+                            75.42639320757775,
+                            31.384157089943415
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        }
+    ]
+},
+    "grid": {
+      "maxCellAreaKm2": 26.214,
+      "minCellAreaKm2": 26.214,
+      "preferSquareCells": true,
+      "maxGridSize": 0,
+      "minGridSize": 1,
+      "forceCubicCells": true,
+      "cellDimensions": {
+        "width": 5.12,
+        "height": 5.12,
+        "unit": "km"
+      }
+    },
+    "processing": {
+      "concurrentCells": 2,
+      "delayBetweenBatches": 3000,
+      "delayBetweenCells": 2000,
+      "preferCloudFreeImages": true,
+      "sortImagesByDate": "recent",
+      "retryAttempts": 3,
+      "retryDelayMs": 5000,
+      "skipExisting": true,
+      "downloadNDVI": true,
+      "downloadSensor": true,
+      "enableBandStacking": false,
+      "outputNumpyArrays": true,
+      "enableAdvancedDateFiltering": true,
+      "separateFiles": true
+    },
+    "ndvi": {
+      "cloudThreshold": 10,
+      "maxImages": 300,
+      "dateRangeMonths": 5,
+      "scale": 10,
+      "maxPixels": 1e7,
+      "format": "NPY",
+      "satellite": "COPERNICUS/S2_SR",
+      "bands": ["B4", "B8"],
+      "bandNames": ["Red_B4", "NIR_B8"],
+      "proximityToleranceMonths": 2,
+      "outputDimensions": {
+        "enabled": true,
+        "width": 2048,
+        "height": 2048,
+        "enforceSquare": true,
+        "clipIfOutOfBounds": true
+      },
+      "dateFiltering": {
+        "mode": "seasonalFiltering",
+        "specificMonthYear": {
+          "enabled": false,
+          "periods": [
+            {
+              "year": 2018,
+              "month": 3,
+              "description": "March-2018"
+            }
+          ]
+        },
+        "seasonalFiltering": {
+          "enabled": true,
+          "months": [3, 2, 1],
+          "years": [2018],
+          "description": "Fallback months (Mar-Feb-Jan) for crop monitoring"
+        },
+        "customDateRange": {
+          "enabled": false,
+          "startDate": "2018-01-01",
+          "endDate": "2018-03-31",
+          "description": "Fallback date range (Jan-Mar)"
+        }
+      }
+    },
+    "sensor": {
+      "scale": 10,
+      "maxPixels": 1e10,
+      "targetBandsPerSensor": 4,
+      "outputDimensions": {
+        "enabled": true,
+        "width": 2048,
+        "height": 2048,
+        "enforceSquare": true,
+        "clipIfOutOfBounds": true
+      },
+      "assets": {
+        "ECe": "projects/sih2k25-472714/assets/ECe",
+        "N": "projects/sih2k25-472714/assets/N",
+        "P": "projects/sih2k25-472714/assets/P",
+        "pH": "projects/sih2k25-472714/assets/pH",
+        "OC": "projects/sih2k25-472714/assets/OC"
+      },
+      "bandConfiguration": {
+        "ECe": {
+          "bands": ["ECe_mean", "ECe_median", "ECe_std", "ECe_max"],
+          "description": "Electrical Conductivity bands"
+        },
+        "N": {
+          "bands": ["N_mean", "N_median", "N_std", "N_max"],
+          "description": "Nitrogen content bands"
+        },
+        "P": {
+          "bands": ["P_mean", "P_median", "P_std", "P_max"],
+          "description": "Phosphorus content bands"
+        },
+        "pH": {
+          "bands": ["pH_mean", "pH_median", "pH_std", "pH_max"],
+          "description": "Soil pH bands"
+        },
+        "OC": {
+          "bands": ["OC_mean", "OC_median", "OC_std", "OC_max"],
+          "description": "Organic Carbon bands"
+        }
+      },
+      "validation": {
+        "ECe": {
+          "min": 0,
+          "max": 10,
+          "unit": "dS/m",
+          "description": "Electrical Conductivity"
+        },
+        "N": {
+          "min": 0,
+          "max": 500,
+          "unit": "mg/kg",
+          "description": "Nitrogen"
+        },
+        "P": {
+          "min": 0,
+          "max": 200,
+          "unit": "mg/kg",
+          "description": "Phosphorus"
+        },
+        "OC": {
+          "min": 0,
+          "max": 10,
+          "unit": "%",
+          "description": "Organic Carbon"
+        },
+        "pH": {
+          "min": 3,
+          "max": 11,
+          "unit": "pH units",
+          "description": "Soil pH"
+        }
+      }
+    },
+    "heatmap": {
+      "outputDir": "./test16_output/",
+      "colormap": "RdYlGn",
+      "includeYield": false,
+      "generateFor": ["satellite", "sensor"],
+      "fileFormat": "png"
+    },
+    "geeConfig": {
+      "serviceAccountPath": "../earth-engine-service-account.json",
+      "projectId": "sih2k25-472714",
+      "maxRetries": 3,
+      "retryDelay": 5000,
+      "timeout": 300000
+    },
+    "output": {
+      "baseDir": "./test16_output/",
+      "createTimestampedFolder": false,
+      "generateSummary": true,
+      "compressFiles": false,
+      "bandStacking": {
+        "enabled": true,
+        "outputFormat": "NPY",
+        "targetResolution": 10,
+        "resamplingMethod": "bilinear",
+        "bandOrder": ["ndvi", "sensor"],
+        "totalBands": 21,
+        "ndviBands": 1,
+        "sensorBands": 20,
+        "noDataValue": -9999,
+        "fixedPixelDimensions": {
+          "enabled": true,
+          "width": 2048,
+          "height": 2048,
+          "enforceSquare": true
+        },
+        "generatePNG": {
+          "enabled": true,
+          "ndviVisualization": true,
+          "sensorVisualization": true
+        }
+      }
+    },
+    "performance": {
+      "enableBatching": true,
+      "batchSize": 2,
+      "enableCache": true,
+      "cacheTimeout": 600000
+    }
+  }
+}
