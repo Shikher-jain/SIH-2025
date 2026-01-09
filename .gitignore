@@ -1,0 +1,9 @@
+data/
+.venv/
+.env
+*.tiff
+*.tif
+*.png
+*.npy
+earth-engine-service-account.json
+__pycache__/
