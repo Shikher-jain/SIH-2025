@@ -1,0 +1,292 @@
+2025-10-03 01:37:13,587 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 01:37:13,587 - __main__ - WARNING - TensorFlow not available. Using fallback models.
+2025-10-03 01:37:13,589 - __main__ - INFO - Initialized fallback models
+2025-10-03 01:37:13,867 - __main__ - ERROR - Error in risk assessment: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-03 01:37:13,868 - __main__ - INFO - Successfully processed field data for field_a_hyperspectral.npy
+2025-10-03 01:37:20,207 - __main__ - INFO - Results saved to outputs\analysis_results_20251003_013713.json
+2025-10-03 01:37:51,340 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 01:37:51,341 - __main__ - WARNING - TensorFlow not available. Using fallback models.
+2025-10-03 01:37:51,341 - __main__ - INFO - Initialized fallback models
+2025-10-03 01:37:51,341 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 01:38:09,663 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 01:38:09,664 - __main__ - WARNING - TensorFlow not available. Using fallback models.
+2025-10-03 01:38:09,664 - __main__ - INFO - Initialized fallback models
+2025-10-03 01:38:09,664 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 01:38:09,666 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-10-03 01:38:12,496 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 01:38:12,497 - __main__ - WARNING - TensorFlow not available. Using fallback models.
+2025-10-03 01:38:12,497 - __main__ - INFO - Initialized fallback models
+2025-10-03 01:38:12,497 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 01:43:48,934 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 01:43:48,934 - __main__ - WARNING - TensorFlow not available. Using fallback models.
+2025-10-03 01:43:48,934 - __main__ - INFO - Initialized fallback models
+2025-10-03 01:43:48,935 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 01:44:04,169 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 01:44:04,170 - __main__ - WARNING - TensorFlow not available. Using fallback models.
+2025-10-03 01:44:04,170 - __main__ - INFO - Initialized fallback models
+2025-10-03 01:44:04,170 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 01:44:18,398 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 01:44:18,399 - __main__ - WARNING - TensorFlow not available. Using fallback models.
+2025-10-03 01:44:18,399 - __main__ - INFO - Initialized fallback models
+2025-10-03 01:44:18,399 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 11:50:36,164 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 11:50:44,037 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 11:50:44,042 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 11:50:44,042 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 11:50:44,044 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 11:50:44,044 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 11:50:44,045 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 11:50:44,045 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 11:50:44,404 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 11:50:44,869 - __main__ - ERROR - Error in risk assessment: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-03 11:50:44,869 - __main__ - INFO - Successfully processed field data for field_a_hyperspectral.npy
+2025-10-03 11:50:50,526 - __main__ - INFO - Results saved to outputs\analysis_results_20251003_115044.json
+2025-10-03 11:52:08,399 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 11:52:11,364 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 11:52:11,365 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 11:52:11,366 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 11:52:11,367 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 11:52:11,367 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 11:52:11,368 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 11:52:11,368 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 11:52:11,680 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 11:52:11,794 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 11:52:11,796 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-10-03 11:52:14,196 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 11:52:17,384 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 11:52:17,386 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 11:52:17,386 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 11:52:17,388 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 11:52:17,388 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 11:52:17,388 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 11:52:17,388 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 11:52:17,712 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 11:52:17,823 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 15:08:54,999 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 15:09:56,584 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 15:09:56,597 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 15:09:56,597 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 15:09:56,611 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 15:09:56,611 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 15:09:56,612 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 15:09:56,613 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 15:09:57,611 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 15:09:58,028 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 15:09:58,033 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-10-03 15:10:38,260 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 15:10:55,577 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 15:10:55,591 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 15:10:55,591 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 15:10:55,593 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 15:10:55,593 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 15:10:55,593 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 15:10:55,593 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 15:10:56,162 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 15:10:56,341 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 15:24:16,680 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 15:25:19,592 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 15:25:19,628 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 15:25:19,629 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 15:25:19,631 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 15:25:19,631 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 15:25:19,632 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 15:25:19,632 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 15:25:20,615 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 15:25:20,888 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 15:25:20,891 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-10-03 15:25:29,392 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 15:25:39,844 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 15:25:39,848 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 15:25:39,849 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 15:25:39,850 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 15:25:39,851 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 15:25:39,852 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 15:25:39,852 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 15:25:40,663 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 15:25:40,958 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 16:19:07,336 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 16:20:53,835 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 16:20:53,915 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 16:20:53,916 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 16:20:53,920 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 16:20:53,921 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 16:20:53,925 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 16:20:53,927 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 16:20:56,000 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 16:20:58,226 - __main__ - ERROR - Error in risk assessment: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-03 16:20:58,226 - __main__ - INFO - Successfully processed field data for field_a_hyperspectral.npy
+2025-10-03 16:21:23,059 - __main__ - INFO - Results saved to outputs\analysis_results_20251003_162058.json
+2025-10-03 16:44:37,450 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 16:44:43,747 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 16:44:43,763 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 16:44:43,772 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 16:44:43,775 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 16:44:43,776 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 16:44:43,778 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 16:44:43,778 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 16:44:44,568 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 16:44:44,802 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 16:46:49,845 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 16:46:54,270 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 16:46:54,274 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 16:46:54,274 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 16:46:54,275 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 16:46:54,276 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 16:46:54,277 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 16:46:54,277 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 16:46:54,967 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 16:46:55,307 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 16:52:26,782 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 16:52:33,290 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 16:52:33,294 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 16:52:33,295 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 16:52:33,295 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 16:52:33,296 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 16:52:33,297 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 16:52:33,297 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 16:52:34,018 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 16:52:34,373 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 17:25:30,325 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 17:25:37,353 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 17:25:37,357 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 17:25:37,357 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 17:25:37,358 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 17:25:37,359 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 17:25:37,360 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 17:25:37,361 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 17:25:37,962 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 17:25:38,163 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 17:36:40,436 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 17:36:46,994 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 17:36:46,998 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 17:36:46,999 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 17:36:47,000 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 17:36:47,001 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 17:36:47,002 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 17:36:47,003 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 17:36:47,812 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 17:36:48,156 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 17:37:35,705 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 17:37:39,563 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 17:37:39,566 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 17:37:39,566 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 17:37:39,567 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 17:37:39,568 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 17:37:39,568 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 17:37:39,569 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 17:37:40,204 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 17:37:40,482 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 17:47:27,437 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 17:47:32,592 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 17:47:32,595 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 17:47:32,595 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 17:47:32,596 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 17:47:32,596 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 17:47:32,598 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 17:47:32,598 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 17:47:33,292 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 17:47:33,514 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 17:49:43,997 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 17:49:48,085 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 17:49:48,088 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 17:49:48,088 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 17:49:48,089 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 17:49:48,090 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 17:49:48,091 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 17:49:48,092 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 17:49:48,624 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 17:49:48,836 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 17:49:56,642 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 17:50:00,232 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 17:50:00,234 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 17:50:00,235 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 17:50:00,236 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 17:50:00,237 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 17:50:00,237 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 17:50:00,238 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 17:50:00,906 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 17:50:01,088 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 17:50:07,016 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 17:50:10,892 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 17:50:10,894 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 17:50:10,895 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 17:50:10,896 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 17:50:10,896 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 17:50:10,897 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 17:50:10,897 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 17:50:11,525 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 17:50:11,720 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 17:56:51,619 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 17:57:01,740 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 17:57:01,749 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 17:57:01,750 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 17:57:01,752 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 17:57:01,754 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 17:57:01,757 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 17:57:01,757 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 17:57:03,324 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 17:57:03,786 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 17:59:56,134 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 18:00:10,207 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 18:00:10,216 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 18:00:10,217 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 18:00:10,222 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 18:00:10,228 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 18:00:10,233 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 18:00:10,234 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 18:00:11,631 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 18:00:12,180 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 18:05:32,352 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 18:05:43,108 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 18:05:43,114 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 18:05:43,114 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 18:05:43,118 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 18:05:43,118 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 18:05:43,121 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 18:05:43,122 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 18:05:44,385 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 18:05:44,899 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 18:06:10,522 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 18:06:19,660 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 18:06:19,665 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 18:06:19,665 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 18:06:19,668 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 18:06:19,668 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 18:06:19,670 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 18:06:19,671 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 18:06:20,659 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 18:06:21,250 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 18:12:50,372 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 18:13:07,927 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 18:13:07,933 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 18:13:07,933 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 18:13:07,935 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 18:13:07,937 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 18:13:07,938 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 18:13:07,939 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 18:13:08,979 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 18:13:09,321 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 18:15:28,021 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 18:15:40,691 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 18:15:40,699 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 18:15:40,700 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 18:15:40,701 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 18:15:40,702 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 18:15:40,705 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 18:15:40,706 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 18:15:41,934 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 18:15:42,565 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050
+2025-10-03 18:17:00,660 - __main__ - INFO - Spectral Health Mapping System initialized
+2025-10-03 18:17:10,562 - __main__ - WARNING - Model file not found: models/saved\spectral_cnn.h5
+2025-10-03 18:17:10,576 - __main__ - ERROR - Error initializing cnn model: name 'Optional' is not defined
+2025-10-03 18:17:10,578 - __main__ - WARNING - Model file not found: models/saved\spectral_autoencoder.h5
+2025-10-03 18:17:10,583 - __main__ - ERROR - Error initializing autoencoder model: name 'Optional' is not defined
+2025-10-03 18:17:10,584 - __main__ - WARNING - Model file not found: models/saved\spectral_lstm.h5
+2025-10-03 18:17:10,589 - __main__ - ERROR - Error initializing lstm model: name 'Optional' is not defined
+2025-10-03 18:17:10,590 - __main__ - WARNING - Model file not found: models/saved\spectral_unet.h5
+2025-10-03 18:17:12,190 - __main__ - WARNING - Model file not found: models/saved\multimodal_fusion.h5
+2025-10-03 18:17:12,683 - src.dashboard.app - INFO - Starting dashboard at http://127.0.0.1:8050

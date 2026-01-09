@@ -1,0 +1,82 @@
+data:
+  hyperspectral_bands: 224
+  multispectral_bands: 10
+  spatial_resolution: [512, 512]
+  temporal_window: 30 
+
+models:
+  cnn:
+    filters: [32, 64, 128, 256]
+    dropout: 0.3
+    learning_rate: 0.001
+
+  lstm:
+    units: 128
+    dropout: 0.2
+    sequence_length: 10
+
+  autoencoder:
+    encoding_dim: 64
+    latent_dim: 32
+
+  unet:
+    depth: 4
+    start_filters: 64
+
+preprocessing:
+  normalization: minmax
+  noise_reduction: true
+  atmospheric_correction: true
+
+thresholds:
+  anomaly_score: 0.7
+  disease_probability: 0.8
+  stress_severity: 0.6
+
+dashboard:
+  host: "127.0.0.1"
+  port: 8050
+  debug: true
+
+# ... existing code ...
+
+training:
+  # CNN Training Parameters
+  cnn_epochs: 100
+  cnn_batch_size: 32
+  cnn_learning_rate: 0.001
+  
+  # LSTM Training Parameters
+  lstm_epochs: 50
+  lstm_batch_size: 16
+  lstm_learning_rate: 0.0005
+  
+  # Random Forest Parameters
+  rf_estimators: 200
+  rf_max_depth: 15
+  rf_min_samples_split: 5
+  
+  # Autoencoder Parameters
+  autoencoder_epochs: 100
+  autoencoder_batch_size: 16
+  autoencoder_learning_rate: 0.001
+  
+  # U-Net Parameters
+  unet_epochs: 80
+  unet_batch_size: 8
+  unet_learning_rate: 0.0001
+
+# Performance Monitoring
+monitoring:
+  enable_metrics: true
+  save_training_logs: true
+  model_versioning: true
+  
+# Advanced Features
+advanced:
+  enable_gpu: true
+  mixed_precision: false
+  distributed_training: false
+  transfer_learning: true
+
+# ... existing code ...
