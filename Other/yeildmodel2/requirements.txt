@@ -1,0 +1,10 @@
+Flask
+numpy
+matplotlib
+google-auth
+google-cloud-logging
+python-dotenv
+pillow
+scikit-image
+opencv-python
+dateutil
