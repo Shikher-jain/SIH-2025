@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "cellId": "2_8",
+    "cellCenter": [
+      77.71152683333332,
+      27.37468375
+    ],
+    "cellArea": 4.98458495604081,
+    "downloadTime": "2025-09-25T12:27:06.246Z",
+    "apiSource": "OpenWeather",
+    "fields": [
+      "temperature",
+      "humidity",
+      "pressure",
+      "windSpeed",
+      "windDirection",
+      "precipitation",
+      "cloudCover"
+    ],
+    "units": "metric"
+  },
+  "location": {
+    "coordinates": [
+      77.71152683333332,
+      27.37468375
+    ],
+    "name": "Farah",
+    "country": "IN"
+  },
+  "currentWeather": {
+    "timestamp": "2025-09-25T12:27:06.000Z",
+    "weather": {
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    },
+    "temperature": {
+      "current": 33.66,
+      "feels_like": 34.17,
+      "min": 33.66,
+      "max": 33.66
+    },
+    "humidity": 37,
+    "pressure": 1002,
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.7,
+      "direction": 339,
+      "gust": 4.19
+    },
+    "clouds": {
+      "coverage": 1
+    },
+    "precipitation": {
+      "rain_1h": 0,
+      "rain_3h": 0,
+      "snow_1h": 0,
+      "snow_3h": 0
+    },
+    "sunrise": "2025-09-25T00:38:52.000Z",
+    "sunset": "2025-09-25T12:42:53.000Z"
+  },
+  "forecastWeather": {
+    "location": {
+      "coordinates": [
+        77.7115,
+        27.3747
+      ],
+      "name": "Farah",
+      "country": "IN"
+    },
+    "forecastType": "daily_processed",
+    "source": "Processed from 5-day/3-hour free API",
+    "forecasts": [
+      {
+        "date": "2025-09-25",
+        "timestamp": "2025-09-25T15:00:00.000Z",
+        "weather": {
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        },
+        "temperature": {
+          "min": 27.2,
+          "max": 32.33,
+          "day": 32.33,
+          "night": 27.2,
+          "morning": 32.33,
+          "evening": 27.2
+        },
+        "humidity": {
+          "min": 40,
+          "max": 59,
+          "avg": 49
+        },
+        "pressure": {
+          "min": 1002,
+          "max": 1004,
+          "avg": 1003
+        },
+        "wind": {
+          "speed": 2.02,
+          "maxSpeed": 3.27
+        },
+        "clouds": {
+          "coverage": 3
+        },
+        "precipitation": {
+          "rain": 0,
+          "snow": 0,
+          "total": 0
+        },
+        "dataPoints": 3,
+        "timeRange": {
+          "start": "2025-09-25T15:00:00.000Z",
+          "end": "2025-09-25T21:00:00.000Z"
+        }
+      },
+      {
+        "date": "2025-09-26",
+        "timestamp": "2025-09-26T00:00:00.000Z",
+        "weather": {
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        },
+        "temperature": {
+          "min": 26.45,
+          "max": 37.26,
+          "day": 37.26,
+          "night": 26.45,
+          "morning": 26.45,
+          "evening": 27.27
+        },
+        "humidity": {
+          "min": 26,
+          "max": 61,
+          "avg": 46
+        },
+        "pressure": {
+          "min": 1003,
+          "max": 1007,
+          "avg": 1005
+        },
+        "wind": {
+          "speed": 2.81,
+          "maxSpeed": 4.25
+        },
+        "clouds": {
+          "coverage": 2
+        },
+        "precipitation": {
+          "rain": 0,
+          "snow": 0,
+          "total": 0
+        },
+        "dataPoints": 8,
+        "timeRange": {
+          "start": "2025-09-26T00:00:00.000Z",
+          "end": "2025-09-26T21:00:00.000Z"
+        }
+      },
+      {
+        "date": "2025-09-27",
+        "timestamp": "2025-09-27T00:00:00.000Z",
+        "weather": {
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        },
+        "temperature": {
+          "min": 26.2,
+          "max": 36.9,
+          "day": 36.9,
+          "night": 26.2,
+          "morning": 26.2,
+          "evening": 29.06
+        },
+        "humidity": {
+          "min": 28,
+          "max": 65,
+          "avg": 47
+        },
+        "pressure": {
+          "min": 1004,
+          "max": 1008,
+          "avg": 1005
+        },
+        "wind": {
+          "speed": 2.49,
+          "maxSpeed": 3.72
+        },
+        "clouds": {
+          "coverage": 3
+        },
+        "precipitation": {
+          "rain": 0,
+          "snow": 0,
+          "total": 0
+        },
+        "dataPoints": 8,
+        "timeRange": {
+          "start": "2025-09-27T00:00:00.000Z",
+          "end": "2025-09-27T21:00:00.000Z"
+        }
+      }
+    ]
+  },
+  "summary": {
+    "hasCurrentWeather": true,
+    "hasForecastData": true,
+    "forecastType": "daily",
+    "forecastDataPoints": 3,
+    "dataTimeRange": {
+      "current": "2025-09-25T12:27:06.000Z",
+      "forecastStart": "2025-09-25T15:00:00.000Z",
+      "forecastEnd": "2025-09-27T00:00:00.000Z"
+    },
+    "forecastStatistics": {
+      "temperature": {
+        "min": 26.2,
+        "max": 37.26,
+        "avgDay": 35.5,
+        "avgNight": 26.62
+      },
+      "humidity": {
+        "min": 26,
+        "max": 65,
+        "avg": 47.33
+      },
+      "pressure": {
+        "min": 1002,
+        "max": 1008,
+        "avg": 1004.33
+      },
+      "windSpeed": {
+        "min": 2.02,
+        "max": 4.25,
+        "avg": 2.44
+      },
+      "totalPrecipitation": 0,
+      "cloudCoverage": {
+        "min": 2,
+        "max": 3,
+        "avg": 2.67
+      }
+    }
+  }
+}

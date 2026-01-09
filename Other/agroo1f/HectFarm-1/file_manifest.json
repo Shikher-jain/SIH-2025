@@ -1,0 +1,26 @@
+{
+  "directory": "test12_output\\HectFarm-1",
+  "created": "2025-09-25T12:27:30.407Z",
+  "files": [
+    {
+      "name": "processing_summary.json",
+      "size": 11203,
+      "sizeMB": "0.011",
+      "modified": "2025-09-25T12:27:30.407Z",
+      "extension": ".json",
+      "type": "JSON Metadata"
+    }
+  ],
+  "summary": {
+    "totalFiles": 1,
+    "totalSize": 11203,
+    "totalSizeMB": "0.011",
+    "fileTypes": {
+      "JSON Metadata": {
+        "count": 1,
+        "totalSize": 11203,
+        "totalSizeMB": "0.011"
+      }
+    }
+  }
+}

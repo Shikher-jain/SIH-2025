@@ -1,0 +1,470 @@
+{
+  "area_name": "HectFarm-1",
+  "processing_date": "2025-09-25T12:27:30.397Z",
+  "grid_analysis": {
+    "gridSize": {
+      "rows": 2,
+      "cols": 9
+    },
+    "totalAreaKm2": 89.72252920873458,
+    "cellAreaKm2": 4.98458495604081,
+    "cellDimensions": {
+      "widthKm": 3.0606026631350978,
+      "heightKm": 1.628838882952801
+    },
+    "isSingleCell": false,
+    "bounds": {
+      "minLon": 77.479106,
+      "maxLon": 77.758011,
+      "minLat": 27.352711,
+      "maxLat": 27.382008
+    },
+    "areaDimensions": {
+      "widthKm": 27.54542396821588,
+      "heightKm": 3.257677765905602
+    }
+  },
+  "statistics": {
+    "total_cells": 18,
+    "completed": 18,
+    "failed": 0,
+    "skipped": 0,
+    "satellite_success": 18,
+    "sensor_success": 18,
+    "total_area_km2": 89.72252920873457,
+    "processed_area_km2": 89.72252920873457,
+    "total_file_size_mb": 8.081425666809082,
+    "total_satellite_size_mb": 8.021063804626465,
+    "total_sensor_size_mb": 0.06036186218261719,
+    "completion_rate": "100.00",
+    "success_rate": "100.00",
+    "area_coverage": "100.00"
+  },
+  "performance": {
+    "total": 18,
+    "processed": 18,
+    "successful": 18,
+    "failed": 0,
+    "skipped": 0,
+    "remaining": 0,
+    "progressPercent": "100.0",
+    "successRate": "100.0",
+    "elapsedMs": 267485,
+    "elapsedMinutes": "4.5",
+    "estimatedRemainingMs": 0,
+    "estimatedRemainingMinutes": "0.0",
+    "estimatedTotalMinutes": "4.5",
+    "averageCellTime": "25.1",
+    "cellsPerMinute": "4.0",
+    "totalDataMB": "8.08",
+    "averageDataPerCell": "0.45",
+    "currentBatch": 9,
+    "lastUpdate": "2025-09-25T12:27:30.389Z",
+    "satelliteStats": null,
+    "sensorStats": null,
+    "batchStats": {
+      "completedBatches": 9,
+      "averageBatchTime": "27.0",
+      "averageCellsPerBatch": "2.0"
+    },
+    "recentErrors": [],
+    "errorPatterns": {},
+    "timingBreakdown": {
+      "satellitePercent": "30.6",
+      "sensorPercent": "45.5",
+      "otherPercent": "23.9"
+    }
+  },
+  "configuration": {
+    "area": {
+      "name": "HectFarm-1",
+      "polygon": [
+        [
+          77.758011,
+          27.382008
+        ],
+        [
+          77.479106,
+          27.382008
+        ],
+        [
+          77.479106,
+          27.352711
+        ],
+        [
+          77.758011,
+          27.352711
+        ],
+        [
+          77.758011,
+          27.382008
+        ]
+      ]
+    },
+    "grid": {
+      "maxCellAreaKm2": 10,
+      "minCellAreaKm2": 1,
+      "preferSquareCells": true,
+      "maxGridSize": 0,
+      "minGridSize": 1
+    },
+    "processing": {
+      "concurrentCells": 2,
+      "delayBetweenBatches": 3000,
+      "delayBetweenCells": 2000,
+      "retryAttempts": 3,
+      "retryDelayMs": 5000,
+      "skipExisting": true
+    },
+    "satellite": {
+      "cloudThreshold": 50,
+      "maxImages": 100,
+      "dateRangeMonths": 5,
+      "scale": 10,
+      "maxPixels": 10000000000,
+      "format": "GEO_TIFF",
+      "bands": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B8",
+        "B11"
+      ],
+      "bandNames": [
+        "Blue_B2",
+        "Green_B3",
+        "Red_B4",
+        "RedEdge_B5",
+        "NIR_B8",
+        "SWIR_B11"
+      ]
+    },
+    "sensor": {
+      "scale": 1000,
+      "assets": {
+        "ECe": "projects/sih2k25-472714/assets/ECe",
+        "N": "projects/sih2k25-472714/assets/N",
+        "P": "projects/sih2k25-472714/assets/P",
+        "OC": "projects/sih2k25-472714/assets/OC",
+        "pH": "projects/sih2k25-472714/assets/pH"
+      }
+    }
+  },
+  "cells": [
+    {
+      "id": "1_1",
+      "center": [
+        77.49460072222223,
+        27.36003525
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 28054,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.46443748474121094,
+      "satellite_date": "2025-09-20",
+      "sensor_count": 5
+    },
+    {
+      "id": "1_2",
+      "center": [
+        77.52559016666666,
+        27.36003525
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 24730,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.4726428985595703,
+      "satellite_date": "2025-09-20",
+      "sensor_count": 5
+    },
+    {
+      "id": "1_3",
+      "center": [
+        77.55657961111112,
+        27.36003525
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 24279,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.4634246826171875,
+      "satellite_date": "2025-09-20",
+      "sensor_count": 5
+    },
+    {
+      "id": "1_4",
+      "center": [
+        77.58756905555555,
+        27.36003525
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 22004,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.45856761932373047,
+      "satellite_date": "2025-09-20",
+      "sensor_count": 5
+    },
+    {
+      "id": "1_5",
+      "center": [
+        77.6185585,
+        27.36003525
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 29869,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.35765933990478516,
+      "satellite_date": "2025-09-24",
+      "sensor_count": 5
+    },
+    {
+      "id": "1_6",
+      "center": [
+        77.64954794444444,
+        27.36003525
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 26986,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.456512451171875,
+      "satellite_date": "2025-09-24",
+      "sensor_count": 5
+    },
+    {
+      "id": "1_7",
+      "center": [
+        77.6805373888889,
+        27.36003525
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 23152,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.4581584930419922,
+      "satellite_date": "2025-09-24",
+      "sensor_count": 5
+    },
+    {
+      "id": "1_8",
+      "center": [
+        77.71152683333332,
+        27.36003525
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 28059,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.46500587463378906,
+      "satellite_date": "2025-09-24",
+      "sensor_count": 5
+    },
+    {
+      "id": "1_9",
+      "center": [
+        77.74251627777778,
+        27.36003525
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 28450,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.4638528823852539,
+      "satellite_date": "2025-09-24",
+      "sensor_count": 5
+    },
+    {
+      "id": "2_1",
+      "center": [
+        77.49460072222223,
+        27.37468375
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 21940,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.4577035903930664,
+      "satellite_date": "2025-09-20",
+      "sensor_count": 5
+    },
+    {
+      "id": "2_2",
+      "center": [
+        77.52559016666666,
+        27.37468375
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 22894,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.49044227600097656,
+      "satellite_date": "2025-09-20",
+      "sensor_count": 5
+    },
+    {
+      "id": "2_3",
+      "center": [
+        77.55657961111112,
+        27.37468375
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 22314,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.46457481384277344,
+      "satellite_date": "2025-09-20",
+      "sensor_count": 5
+    },
+    {
+      "id": "2_4",
+      "center": [
+        77.58756905555555,
+        27.37468375
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 26190,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.4533967971801758,
+      "satellite_date": "2025-09-20",
+      "sensor_count": 5
+    },
+    {
+      "id": "2_5",
+      "center": [
+        77.6185585,
+        27.37468375
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 22576,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.3070096969604492,
+      "satellite_date": "2025-09-24",
+      "sensor_count": 5
+    },
+    {
+      "id": "2_6",
+      "center": [
+        77.64954794444444,
+        27.37468375
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 29891,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.45163822174072266,
+      "satellite_date": "2025-09-24",
+      "sensor_count": 5
+    },
+    {
+      "id": "2_7",
+      "center": [
+        77.6805373888889,
+        27.37468375
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 26081,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.4692659378051758,
+      "satellite_date": "2025-09-24",
+      "sensor_count": 5
+    },
+    {
+      "id": "2_8",
+      "center": [
+        77.71152683333332,
+        27.37468375
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 25695,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.46584415435791016,
+      "satellite_date": "2025-09-24",
+      "sensor_count": 5
+    },
+    {
+      "id": "2_9",
+      "center": [
+        77.74251627777778,
+        27.37468375
+      ],
+      "area_km2": 4.98458495604081,
+      "processed": true,
+      "error": null,
+      "retry_count": 0,
+      "processing_time_ms": 19237,
+      "satellite_success": true,
+      "sensor_success": true,
+      "file_size_mb": 0.4612884521484375,
+      "satellite_date": "2025-09-24",
+      "sensor_count": 5
+    }
+  ],
+  "quality_overview": {
+    "average_quality_score": "83.33",
+    "quality_level": "Very Good",
+    "total_satellite_images": 378,
+    "total_sensor_types": 90,
+    "cells_with_quality_data": 18
+  },
+  "recommendations": []
+}

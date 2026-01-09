@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "cellId": "1_5",
+    "cellCenter": [
+      77.6185585,
+      27.36003525
+    ],
+    "cellArea": 4.98458495604081,
+    "downloadTime": "2025-09-25T12:24:03.681Z",
+    "apiSource": "OpenWeather",
+    "fields": [
+      "temperature",
+      "humidity",
+      "pressure",
+      "windSpeed",
+      "windDirection",
+      "precipitation",
+      "cloudCover"
+    ],
+    "units": "metric"
+  },
+  "location": {
+    "coordinates": [
+      77.6185585,
+      27.36003525
+    ],
+    "name": "Gokul",
+    "country": "IN"
+  },
+  "currentWeather": {
+    "timestamp": "2025-09-25T12:24:04.000Z",
+    "weather": {
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    },
+    "temperature": {
+      "current": 33.84,
+      "feels_like": 34.23,
+      "min": 33.84,
+      "max": 33.84
+    },
+    "humidity": 36,
+    "pressure": 1002,
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.85,
+      "direction": 348,
+      "gust": 4.54
+    },
+    "clouds": {
+      "coverage": 1
+    },
+    "precipitation": {
+      "rain_1h": 0,
+      "rain_3h": 0,
+      "snow_1h": 0,
+      "snow_3h": 0
+    },
+    "sunrise": "2025-09-25T00:39:15.000Z",
+    "sunset": "2025-09-25T12:43:16.000Z"
+  },
+  "forecastWeather": {
+    "location": {
+      "coordinates": [
+        77.6186,
+        27.36
+      ],
+      "name": "Gokul",
+      "country": "IN"
+    },
+    "forecastType": "daily_processed",
+    "source": "Processed from 5-day/3-hour free API",
+    "forecasts": [
+      {
+        "date": "2025-09-25",
+        "timestamp": "2025-09-25T15:00:00.000Z",
+        "weather": {
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        },
+        "temperature": {
+          "min": 27.45,
+          "max": 32.58,
+          "day": 32.58,
+          "night": 27.45,
+          "morning": 32.58,
+          "evening": 27.45
+        },
+        "humidity": {
+          "min": 39,
+          "max": 57,
+          "avg": 48
+        },
+        "pressure": {
+          "min": 1002,
+          "max": 1004,
+          "avg": 1003
+        },
+        "wind": {
+          "speed": 1.66,
+          "maxSpeed": 3.11
+        },
+        "clouds": {
+          "coverage": 3
+        },
+        "precipitation": {
+          "rain": 0,
+          "snow": 0,
+          "total": 0
+        },
+        "dataPoints": 3,
+        "timeRange": {
+          "start": "2025-09-25T15:00:00.000Z",
+          "end": "2025-09-25T21:00:00.000Z"
+        }
+      },
+      {
+        "date": "2025-09-26",
+        "timestamp": "2025-09-26T00:00:00.000Z",
+        "weather": {
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        },
+        "temperature": {
+          "min": 26.7,
+          "max": 37.39,
+          "day": 37.39,
+          "night": 26.7,
+          "morning": 26.7,
+          "evening": 27.43
+        },
+        "humidity": {
+          "min": 25,
+          "max": 60,
+          "avg": 45
+        },
+        "pressure": {
+          "min": 1003,
+          "max": 1007,
+          "avg": 1005
+        },
+        "wind": {
+          "speed": 2.86,
+          "maxSpeed": 4.31
+        },
+        "clouds": {
+          "coverage": 2
+        },
+        "precipitation": {
+          "rain": 0,
+          "snow": 0,
+          "total": 0
+        },
+        "dataPoints": 8,
+        "timeRange": {
+          "start": "2025-09-26T00:00:00.000Z",
+          "end": "2025-09-26T21:00:00.000Z"
+        }
+      },
+      {
+        "date": "2025-09-27",
+        "timestamp": "2025-09-27T00:00:00.000Z",
+        "weather": {
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        },
+        "temperature": {
+          "min": 26.38,
+          "max": 37.09,
+          "day": 37.09,
+          "night": 26.38,
+          "morning": 26.38,
+          "evening": 29.08
+        },
+        "humidity": {
+          "min": 27,
+          "max": 64,
+          "avg": 46
+        },
+        "pressure": {
+          "min": 1004,
+          "max": 1008,
+          "avg": 1005
+        },
+        "wind": {
+          "speed": 2.56,
+          "maxSpeed": 3.9
+        },
+        "clouds": {
+          "coverage": 6
+        },
+        "precipitation": {
+          "rain": 0,
+          "snow": 0,
+          "total": 0
+        },
+        "dataPoints": 8,
+        "timeRange": {
+          "start": "2025-09-27T00:00:00.000Z",
+          "end": "2025-09-27T21:00:00.000Z"
+        }
+      }
+    ]
+  },
+  "summary": {
+    "hasCurrentWeather": true,
+    "hasForecastData": true,
+    "forecastType": "daily",
+    "forecastDataPoints": 3,
+    "dataTimeRange": {
+      "current": "2025-09-25T12:24:04.000Z",
+      "forecastStart": "2025-09-25T15:00:00.000Z",
+      "forecastEnd": "2025-09-27T00:00:00.000Z"
+    },
+    "forecastStatistics": {
+      "temperature": {
+        "min": 26.38,
+        "max": 37.39,
+        "avgDay": 35.69,
+        "avgNight": 26.84
+      },
+      "humidity": {
+        "min": 25,
+        "max": 64,
+        "avg": 46.33
+      },
+      "pressure": {
+        "min": 1002,
+        "max": 1008,
+        "avg": 1004.33
+      },
+      "windSpeed": {
+        "min": 1.66,
+        "max": 4.31,
+        "avg": 2.36
+      },
+      "totalPrecipitation": 0,
+      "cloudCoverage": {
+        "min": 2,
+        "max": 6,
+        "avg": 3.67
+      }
+    }
+  }
+}
