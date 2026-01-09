@@ -1,0 +1,236 @@
+sat.tif 10m
+sen.tif world 1000m 1km
+
+100x
+
+sat , sen ==> 100m
+\/
+
+
+6 bands + 20bands
+
+
+function GEETifToNDVI(tiff_file_path, output_dir)
+    % CONVERT TIFF TO NDVI
+    % This function reads a multispectral GeoTIFF file, calculates the
+    % Normalized Difference Vegetation Index (NDVI), and displays the result.
+    %
+    % Inputs:
+    %   tiff_file_path: Full path to the GeoTIFF file.
+    %   output_dir: (Optional) Directory to save the NDVI image.
+    
+    fprintf('=== STARTING NDVI CALCULATION FROM TIFF ===\n');
+    fprintf('Processing file: %s\n', tiff_file_path);
+
+    %% STEP 1: READ THE GEOTIFF DATA
+    try
+        % Read the multispectral image with geospatial reference
+        [multispectral_data, spatial_ref] = readgeoraster(tiff_file_path);
+        
+        % Read GeoTIFF metadata to get band names
+        geotiff_info = geotiffinfo(tiff_file_path);
+        
+        [height, width, num_bands] = size(multispectral_data);
+        fprintf('Image dimensions: %d x %d pixels, %d bands\n', height, width, num_bands);
+        
+    catch ME
+        error('Error reading GeoTIFF file: %s', ME.message);
+    end
+
+    %% STEP 2: DETERMINE BAND CONFIGURATION AND EXTRACT NIR AND RED BANDS
+    
+    % Common band configurations for different numbers of bands
+    switch num_bands
+        case 4
+            % Standard RGB + NIR
+            red_idx = 1;  % Usually R
+            nir_idx = 4;  % Usually NIR
+            fprintf('Detected 4-band image: assuming RGB + NIR format\n');
+            
+        case 6
+            % Common 6-band subset: B2,B3,B4,B8,B11,B12 or similar
+            % Most likely: B2(Blue), B3(Green), B4(Red), B8(NIR), B11(SWIR1), B12(SWIR2)
+            red_idx = 3;  % B4 (Red) is typically 3rd in 6-band subset
+            nir_idx = 4;  % B8 (NIR) is typically 4th in 6-band subset
+            fprintf('Detected 6-band image: assuming B2,B3,B4,B8,B11,B12 format\n');
+            fprintf('Using band 3 as Red (B4) and band 4 as NIR (B8)\n');
+            
+        case 8
+            % Extended subset
+            red_idx = 3;  % B4
+            nir_idx = 6;  % B8 
+            fprintf('Detected 8-band image: assuming extended Sentinel-2 subset\n');
+            
+        case 10
+            % Full Sentinel-2 L2A: B2,B3,B4,B5,B6,B7,B8,B8A,B11,B12
+            red_idx = 3;  % B4
+            nir_idx = 7;  % B8
+            fprintf('Detected 10-band image: full Sentinel-2 format\n');
+            
+        case 12
+        case 13
+            % Full Sentinel-2 with all bands
+            red_idx = 4;  % B4 position in full band set
+            nir_idx = 8;  % B8 position in full band set
+            fprintf('Detected %d-band image: full Sentinel-2 format\n', num_bands);
+            
+        otherwise
+            % Unknown configuration - make educated guesses
+            fprintf('Unknown band configuration (%d bands). Making assumptions...\n', num_bands);
+            
+            if num_bands >= 4
+                % Assume last band is NIR, and red is somewhere in middle
+                red_idx = min(3, num_bands-1);  % Usually 3rd band or close
+                nir_idx = min(4, num_bands);    % Often 4th band or last
+                fprintf('Assuming band %d as Red and band %d as NIR\n', red_idx, nir_idx);
+            else
+                error('Insufficient bands (%d) for NDVI calculation. Need at least 4 bands.', num_bands);
+            end
+    end
+    
+    % Validate band indices
+    if red_idx > num_bands || nir_idx > num_bands
+        error('Band indices exceed available bands. Red idx: %d, NIR idx: %d, Total bands: %d', ...
+              red_idx, nir_idx, num_bands);
+    end
+    
+    % Extract the band data and convert to double for calculation
+    red_band = double(multispectral_data(:, :, red_idx));
+    nir_band = double(multispectral_data(:, :, nir_idx));
+    
+    % Check data ranges to ensure proper scaling
+    fprintf('Red band range: %.2f to %.2f\n', min(red_band(:)), max(red_band(:)));
+    fprintf('NIR band range: %.2f to %.2f\n', min(nir_band(:)), max(nir_band(:)));
+    
+    % Handle different scaling (DN values vs reflectance)
+    if max(red_band(:)) > 1 || max(nir_band(:)) > 1
+        if max(red_band(:)) > 10000 || max(nir_band(:)) > 10000
+            fprintf('Data appears to be DN values (>10000). Consider scaling.\n');
+        else
+            fprintf('Data appears to be scaled (0-10000 range).\n');
+        end
+    else
+        fprintf('Data appears to be reflectance values (0-1 range).\n');
+    end
+    
+    %% STEP 3: CALCULATE THE NDVI
+    % Add a small epsilon to avoid division by zero
+    epsilon = 1e-6; 
+    
+    % Calculate NDVI
+    ndvi_image = (nir_band - red_band) ./ (nir_band + red_band + epsilon);
+    
+    % Handle invalid values
+    ndvi_image(isinf(ndvi_image) | isnan(ndvi_image)) = -1;
+    
+    % Calculate statistics
+    valid_pixels = ndvi_image(ndvi_image > -1 & ndvi_image <= 1);
+    fprintf('NDVI Statistics:\n');
+    fprintf('  Valid pixels: %d / %d (%.1f%%)\n', length(valid_pixels), numel(ndvi_image), ...
+            100 * length(valid_pixels) / numel(ndvi_image));
+    fprintf('  NDVI range: %.3f to %.3f\n', min(valid_pixels), max(valid_pixels));
+    fprintf('  Mean NDVI: %.3f\n', mean(valid_pixels));
+    
+    fprintf('✅ NDVI calculated successfully.\n');
+    
+    %% STEP 4: DISPLAY THE NDVI IMAGE
+    figure('Name', 'NDVI Analysis', 'Position', [100, 100, 1200, 500]);
+    
+    % Subplot 1: Red band
+    subplot(1, 3, 1);
+    imagesc(red_band);
+    colormap(gca, 'gray');
+    colorbar;
+    title(sprintf('Red Band (Band %d)', red_idx));
+    xlabel('Pixel Column');
+    ylabel('Pixel Row');
+    
+    % Subplot 2: NIR band  
+    subplot(1, 3, 2);
+    imagesc(nir_band);
+    colormap(gca, 'gray');
+    colorbar;
+    title(sprintf('NIR Band (Band %d)', nir_idx));
+    xlabel('Pixel Column');
+    ylabel('Pixel Row');
+    
+    % Subplot 3: NDVI
+    subplot(1, 3, 3);
+    imagesc(ndvi_image);
+    colormap(gca, 'jet'); % Use jet colormap for NDVI
+    colorbar;
+    title('NDVI Image');
+    xlabel('Pixel Column');
+    ylabel('Pixel Row');
+    caxis([-1, 1]); % Set the color axis from -1 to 1 for NDVI values
+
+    fprintf('✅ NDVI image displayed.\n');
+    
+    %% STEP 5: CREATE ADDITIONAL ANALYSIS
+    
+    % Create histogram
+    figure('Name', 'NDVI Histogram');
+    histogram(valid_pixels, 50, 'FaceColor', 'green', 'EdgeColor', 'black');
+    title('NDVI Value Distribution');
+    xlabel('NDVI Value');
+    ylabel('Frequency');
+    grid on;
+    
+    % Add vertical lines for key thresholds
+    hold on;
+    line([0 0], ylim, 'Color', 'red', 'LineStyle', '--', 'LineWidth', 2);
+    text(0.05, max(ylim)*0.9, 'Vegetation Threshold', 'Color', 'red');
+    line([0.3 0.3], ylim, 'Color', 'blue', 'LineStyle', '--', 'LineWidth', 2);
+    text(0.35, max(ylim)*0.8, 'Healthy Vegetation', 'Color', 'blue');
+    hold off;
+    
+    %% STEP 6: SAVE THE OUTPUT IMAGE (OPTIONAL)
+    if nargin > 1 && ~isempty(output_dir)
+        if ~exist(output_dir, 'dir'), mkdir(output_dir); end
+        
+        % Generate filename with timestamp
+        [~, base_name, ~] = fileparts(tiff_file_path);
+        timestamp = datestr(now, 'yyyymmdd_HHMMSS');
+        
+        % Save as a GeoTIFF if the Mapping Toolbox is available
+        try
+            output_tiff = fullfile(output_dir, sprintf('%s_ndvi_%s.tif', base_name, timestamp));
+            geotiffwrite(output_tiff, ndvi_image, spatial_ref);
+            fprintf('Saved GeoTIFF to: %s\n', output_tiff);
+        catch
+            % Fallback to a simple TIFF
+            output_tiff = fullfile(output_dir, sprintf('%s_ndvi_%s.tif', base_name, timestamp));
+            imwrite(rescale(ndvi_image), output_tiff);
+            fprintf('Saved TIFF to: %s (without geospatial reference)\n', output_tiff);
+        end
+        
+        % Save as PNG for easy viewing
+        output_png = fullfile(output_dir, sprintf('%s_ndvi_%s.png', base_name, timestamp));
+        
+        % Create a nice colorized PNG
+        ndvi_colored = ind2rgb(gray2ind(rescale(ndvi_image), 256), jet(256));
+        imwrite(ndvi_colored, output_png);
+        fprintf('Saved colored PNG to: %s\n', output_png);
+        
+        % Save NDVI statistics as text file
+        stats_file = fullfile(output_dir, sprintf('%s_ndvi_stats_%s.txt', base_name, timestamp));
+        fid = fopen(stats_file, 'w');
+        fprintf(fid, 'NDVI Analysis Results\n');
+        fprintf(fid, '====================\n');
+        fprintf(fid, 'Input file: %s\n', tiff_file_path);
+        fprintf(fid, 'Processing date: %s\n', datestr(now));
+        fprintf(fid, 'Image dimensions: %dx%d pixels\n', height, width);
+        fprintf(fid, 'Number of bands: %d\n', num_bands);
+        fprintf(fid, 'Red band index: %d\n', red_idx);
+        fprintf(fid, 'NIR band index: %d\n', nir_idx);
+        fprintf(fid, 'Valid pixels: %d / %d (%.1f%%)\n', length(valid_pixels), numel(ndvi_image), ...
+                100 * length(valid_pixels) / numel(ndvi_image));
+        fprintf(fid, 'NDVI range: %.3f to %.3f\n', min(valid_pixels), max(valid_pixels));
+        fprintf(fid, 'Mean NDVI: %.3f\n', mean(valid_pixels));
+        fprintf(fid, 'Standard deviation: %.3f\n', std(valid_pixels));
+        fclose(fid);
+        fprintf('Saved statistics to: %s\n', stats_file);
+    end
+    
+    fprintf('\n🎉 NDVI processing completed successfully!\n');
+end

@@ -1,0 +1,12 @@
+Indian Pines Hyperspectral Dataset
+================================
+Shape: (145, 145, 220)
+Spatial dimensions: 145 x 145
+Spectral bands: 220
+Data type: uint16
+Value range: 955 to 9604
+
+Files created:
+- indian_pines_dataset.npy: Complete dataset
+- indian_pines_rgb.png: RGB visualization
+- band_000.png to band_009.png: First 10 spectral bands
